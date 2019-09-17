@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgrey;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: green;
+  background-image: url(../img/background.jpg);
+  width: 100%;
+  height: 270px;
+  position: relative;
+  border: 10px solid white;
+  text-align: center;
+}
+
+header>h1 {
+  font-size: 60px;
+}
+
+header>h1, h3 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+
+}
+
+nav {
+  position: relative;
+  background-color: gray;
+  color: white;
+  height: 50px;
+}
+
+nav ul li {
+  width: 13.3%;
+  text-align: center;
+  display: inline-block;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+#container {
+  margin: 10px auto;
+  width: 100%;
+}
+
+#container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#left-sidebar {
+  float: left;
+  width: 20%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#left-sidebar > p {
+   margin-top: 35px;
+   margin-bottom: 35px;
+}
+
+#left-sidebar > h2 {
+  display: inline;
+}
+
+#blocco-centrale {
+  float: left;
+  width: 50%;
+  background-color: white;
+  padding: 15px;
+  position: relative;
+  left: 5%;
+  border-radius: 5px;
+}
+
+#blocco-centrale > p {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#right-siderbar {
+  float: right;
+  width: 20%;
+}
+
+.right-bloc {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.right-bloc > p {
+   margin-top: 35px;
+   margin-bottom: 35px;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 5px;
+}
+
+footer > p {
+  color: #000;
+  text-align: center;
+  line-height: 80px;
+}
+
+.iconesocial {
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  line-height: 80px;
+}
+
+.iconesocial::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.facebook {
+  float: left;
+  width: 33.3%;
+}
+
+.instagram {
+  float: left;
+  width: 33.3%;
+}
+
+.skype {
+  float: left;
+  width: 33.3%;
+}
